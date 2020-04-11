@@ -1,4 +1,7 @@
+var total;
 function add(a, b) {
     return a + b;
 }
-console.log(add(10, 7));
+total = add(25, 3);
+console.log("the total is " + total);
+console.log(total);
